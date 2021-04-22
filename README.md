@@ -14,7 +14,20 @@ This dataset has the following structure:
        - annotations (bouding box information in xml format)
        - images (pictures in png format)
 ```
-
-
+A traditional PASCAL VOC structure should have the following structure:
+```
+  - data
+       - VOC2007
+            - Annotations (same as annotations in original dataset)
+            - ImageSets (generate this folder by ourselves)
+                - Main
+                    - test.txt
+                    - train.txt
+                    - trainval.txt
+                    - val.txt
+            - JPEGImages(pictures in jpg format)
+            - labels (generate this folder by ourselves)
+```
+Therefore, we have to do some data pre-processing in order to make the original dataset fit the yolo model.
 ## References
 1. png2jpg.ipynb: <https://blog.csdn.net/weixin_40446557/article/details/104059660>
