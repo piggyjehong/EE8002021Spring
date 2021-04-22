@@ -31,3 +31,4 @@ A traditional PASCAL VOC structure should have the following structure:
 Therefore, we have to do some data pre-processing in order to make the original dataset fit the YOLO model.
 ## References
 1. png2jpg.ipynb: <https://blog.csdn.net/weixin_40446557/article/details/104059660>
+2. data pre-processing: <https://github.com/pprp/voc2007_for_yolo_torch>
