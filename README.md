@@ -32,3 +32,5 @@ Therefore, we have to do some data pre-processing in order to make the original 
 ## References
 1. png2jpg.ipynb: <https://blog.csdn.net/weixin_40446557/article/details/104059660>
 2. data pre-processing: <https://github.com/pprp/voc2007_for_yolo_torch>
+3. YOLOv3: <https://github.com/ultralytics/yolov3>
+4. 
