@@ -1,0 +1,4 @@
+classes=3
+train=/content/EE8002021Spring/yolov3_spp/data/my_train_data.txt
+valid=/content/EE8002021Spring/yolov3_spp/data/my_val_data.txt
+names=/content/EE8002021Spring/yolov3_spp/data/my_data_label.names
